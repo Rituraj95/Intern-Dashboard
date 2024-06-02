@@ -1,5 +1,32 @@
-import React from 'react'
+import React from 'react';
+
+import Card from './card';
+
+
+
 
 export default function Products() {
-	return <div>Products page</div>
+  return (
+	<>
+    <div className="products-container">
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+     
+      
+     
+	  
+    </div>
+   
+  
+	 
+	</>
+
+  );
 }

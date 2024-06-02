@@ -27,7 +27,7 @@ export default function Header() {
 									'group inline-flex items-center rounded-sm p-1.5 text-gray-700 hover:text-opacity-100 focus:outline-none active:bg-gray-100'
 								)}
 							>
-								<HiOutlineChatAlt fontSize={24} />
+								<p>Go to explore</p>
 							</Popover.Button>
 							<Transition
 								as={Fragment}
@@ -40,8 +40,8 @@ export default function Header() {
 							>
 								<Popover.Panel className="absolute right-0 z-10 mt-2.5 transform w-80">
 									<div className="bg-white rounded-sm shadow-md ring-1 ring-black ring-opacity-5 px-2 py-2.5">
-										<strong className="text-gray-700 font-medium">Messages</strong>
-										<div className="mt-2 py-1 text-sm">This is messages panel.</div>
+										<strong className="text-gray-700 font-medium">xyx</strong>
+										<div className="mt-2 py-1 text-sm">xyzz.</div>
 									</div>
 								</Popover.Panel>
 							</Transition>
@@ -57,7 +57,7 @@ export default function Header() {
 									'group inline-flex items-center rounded-sm p-1.5 text-gray-700 hover:text-opacity-100 focus:outline-none active:bg-gray-100'
 								)}
 							>
-								<HiOutlineBell fontSize={24} />
+								<p>Refer and Earn</p>
 							</Popover.Button>
 							<Transition
 								as={Fragment}
@@ -70,13 +70,16 @@ export default function Header() {
 							>
 								<Popover.Panel className="absolute right-0 z-10 mt-2.5 transform w-80">
 									<div className="bg-white rounded-sm shadow-md ring-1 ring-black ring-opacity-5 px-2 py-2.5">
-										<strong className="text-gray-700 font-medium">Notifications</strong>
-										<div className="mt-2 py-1 text-sm">This is notification panel.</div>
+										<strong className="text-gray-700 font-medium">New Refer</strong>
+										<div className="mt-2 py-1 text-sm">referal code</div>
 									</div>
 								</Popover.Panel>
+								
 							</Transition>
 						</>
+						
 					)}
+					
 				</Popover>
 				<Menu as="div" className="relative">
 					<div>

@@ -1,0 +1,44 @@
+.upload {
+    
+    height: 311px;
+    background-color: #FFDB58;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 2px dashed #000;
+    cursor: pointer;
+  }
+  h1{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .file-input {
+    display: none;
+  }
+  
+  .file-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    
+  }
+  
+  .plus-icon {
+    background-color: silver;
+    font-size: 102px;
+    color: black;
+  }
+  .text{
+    margin-top: 30px;
+    background-color: silver;
+    font-size: 19x;
+    color: black;
+
+  }
+  

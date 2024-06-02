@@ -23,42 +23,33 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 		icon: <HiOutlineCube />
 	},
 	{
-		key: 'orders',
-		label: 'Orders',
-		path: '/orders',
+		key: 'payy',
+		label: 'Payouts',
+		path: '/payy',
 		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'customers',
-		label: 'Customers',
-		path: '/customers',
-		icon: <HiOutlineUsers />
+		key: 'CreateProduct',
+		label: 'CreateProduct',
+		path: '/CreateProduct',
+		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'transactions',
-		label: 'Transactions',
-		path: '/transactions',
-		icon: <HiOutlineDocumentText />
+		key: 'ProductHighlight',
+		label: 'ProductHighlight',
+		path: '/ProductHighlight',
+		icon: <HiOutlineShoppingCart />
 	},
 	{
-		key: 'messages',
-		label: 'Messages',
-		path: '/messages',
-		icon: <HiOutlineAnnotation />
-	}
+		key: 'order',
+		label: 'Reward',
+		path: '/order',
+		icon: <HiOutlineShoppingCart />
+	},
+	
+	
 ]
 
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
-	{
-		key: 'settings',
-		label: 'Settings',
-		path: '/settings',
-		icon: <HiOutlineCog />
-	},
-	{
-		key: 'support',
-		label: 'Help & Support',
-		path: '/support',
-		icon: <HiOutlineQuestionMarkCircle />
-	}
+	
 ]

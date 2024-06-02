@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #212121;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #575757;
+  }
+  
+  .navbar-left a {
+    margin-right: 10px;
+  }
+  
+  .navbar-right a {
+    margin-left: 10px;
+  }
+  
